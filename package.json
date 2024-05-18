@@ -1,0 +1,26 @@
+{
+  "name": "browsing-activity-tracker",
+  "title": "Browsing Activity Tracker",
+  "id": "jid1-KLw59UduPgRwag",
+  "description": "Notify a callback URL whenever a webpage is loaded or displayed.",
+  "author": "Thibaut Horel <thibaut@horel.org>",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "homepage": "https://github.com/Thibauth/browsing-activity-tracker",
+  "icon": "icon48.png",
+  "icon64": "icon128.png",
+  "preferences": [{
+        "name": "callback",
+        "type": "string",
+        "title": "Callback URL",
+        "description": "URL to be notified.",
+        "value": "http://localhost:8080"
+  },
+  {
+       "name": "key",
+       "type": "string",
+       "title": "Browser key",
+       "description": "Key to identify the browser.",
+       "value": "firefox"
+  }]
+}
